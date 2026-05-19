@@ -1,0 +1,81 @@
+{
+  "municipalidad": {
+    "nombre": "Municipalidad de Doñihue",
+    "comuna": "Doñihue",
+    "url": "https://mdonihue.cl/",
+    "logo": "./img/logomuni.png"
+  },
+  "dom": {
+    "nombre": "Dirección de Obras Municipales Doñihue",
+    "tituloFooter": "Dirección de Obras",
+    "direccion": "Av. Estación #344",
+    "telefono": "72-2959202",
+    "correo": "dom@mdonihue.cl"
+  },
+  "hero": {
+    "imagen": "./img/hero.png",
+    "titulo": "DOM en Línea",
+    "subtitulo": "Trámites más simples, rápidos y seguros",
+    "descripcion": "DOM en Línea es la plataforma digital de la Dirección de Obras Municipales que permite a vecinos y contribuyentes gestionar certificados y trámites de manera rápida, segura y sin necesidad de acudir presencialmente. Aquí podrás revisar requisitos, documentos necesarios y plazos antes de ingresar al sistema oficial."
+  },
+  "urls": {
+    "domEnLinea": "https://domenlinea.minvu.cl/",
+    "formulariosMinvu": "https://www.minvu.gob.cl/elementos-tecnicos/formularios/0-certificados-y-otros/",
+    "claveUnica": "https://claveunica.gob.cl/recuperar"
+  },
+  "recursos": {
+    "video": "./img/video/VideoDOM.mp4",
+    "triptico": "./img/Doc/Pasoapaso.pdf",
+    "pasoAPaso": "./img/pasos.jpg"
+  },
+  "textos": {
+    "videoKicker": "Guía ciudadana",
+    "videoTitulo": "Video paso a paso",
+    "videoDescripcion": "Revisa este video para conocer el proceso de ingreso a DOM en Línea, los antecedentes que debes preparar y cómo realizar tu solicitud.",
+    "faqRespuestaCertificado": "Normalmente se solicita rol de avalúo, dirección del predio, croquis de ubicación, dominio vigente, copia de escritura y otros antecedentes según el certificado."
+  },
+  "certificados": [
+    {
+      "nombre": "Certificado de Número",
+      "plazo": "7 días hábiles",
+      "descripcion": "Acredita el número municipal asignado a una propiedad.",
+      "documentos": ["Rol de avalúo", "Croquis de ubicación", "Dominio vigente", "Copia de escritura"],
+      "formulario": "./img/Doc/formulario.pdf"
+    },
+    {
+      "nombre": "Certificado de Informaciones Previas",
+      "plazo": "7 días hábiles",
+      "descripcion": "Entrega información urbanística aplicable a un predio.",
+      "documentos": ["Rol de avalúo", "Croquis", "Poder simple si corresponde", "Dominio vigente", "Copia de escritura"],
+      "formulario": "./img/Doc/cip.pdf"
+    },
+    {
+      "nombre": "Certificado de Afectación a Utilidad Pública",
+      "plazo": "7 días hábiles",
+      "descripcion": "Certifica si una propiedad se encuentra afecta a utilidad pública según la planificación vigente.",
+      "documentos": ["Rol de avalúo", "Croquis de ubicación", "Dominio vigente", "Copia de escritura"],
+      "formulario": "./img/Doc/cup.pdf"
+    },
+    {
+      "nombre": "Certificado de Vivienda Social",
+      "plazo": "7 días hábiles",
+      "descripcion": "Permite acreditar antecedentes para fines asociados a vivienda social.",
+      "documentos": ["Rol", "Antecedentes de la propiedad", "Dominio vigente", "Copia de escritura"],
+      "formulario": "./img/Doc/formulario.pdf"
+    },
+    {
+      "nombre": "Certificado de Zonificación",
+      "plazo": "7 días hábiles",
+      "descripcion": "Informa la zonificación aplicable a un predio.",
+      "documentos": ["Rol", "Dirección", "Croquis", "Dominio vigente", "Copia de escritura"],
+      "formulario": "./img/Doc/formulario.pdf"
+    },
+    {
+      "nombre": "Otro",
+      "plazo": "Según revisión",
+      "descripcion": "Corresponde a solicitudes especiales no listadas explícitamente.",
+      "documentos": ["Antecedentes según solicitud"],
+      "formulario": "./img/Doc/formulario.pdf"
+    }
+  ]
+}

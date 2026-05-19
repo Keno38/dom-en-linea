@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!--
+  DISTRIBUCIÓN MUNICIPAL - CÓDIGO BASE
+  No modificar index.html, style.min.css ni app.min.js.
+  La personalización se realiza solo en config.json y en la carpeta img/.
+-->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="pageTitle">DOM en Línea</title>
+  <link rel="stylesheet" href="style.min.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a id="linkMunicipio" href="#" target="_blank" class="brand">
+        <img id="logoMunicipio" src="./img/logomuni.png" alt="Logo municipal" class="brand-logo-img">
+      </a>
+
+      <nav class="menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#beneficios">Información</a>
+        <a href="#certificados">Certificados</a>
+        <a href="#documentos">Documentos</a>
+        <a href="#faq">Preguntas frecuentes</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+  <section class="hero" id="inicio">
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <span class="eyebrow" id="domNombre">Dirección de Obras Municipales</span>
+        <h1 id="heroTitulo">DOM en Línea</h1>
+        <h2 id="heroSubtitulo">Trámites más simples, rápidos y seguros</h2>
+        <p id="heroDescripcion"></p>
+
+        <div class="hero-actions">
+          <a class="btn btn-accent btn-lg link-dom" href="#" target="_blank">
+            Ingresar a DOM en Línea
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-indicators">
+          <div class="indicator-card">
+            <div class="indicator-icon">⏱</div>
+            <div>
+              <strong>Ahorra tiempo</strong>
+              <p>Trámites más rápidos</p>
+            </div>
+          </div>
+
+          <div class="indicator-card">
+            <div class="indicator-icon">💻</div>
+            <div>
+              <strong>100% Online</strong>
+              <p>Sin filas ni traslados</p>
+            </div>
+          </div>
+
+          <div class="indicator-card">
+            <div class="indicator-icon">🛡</div>
+            <div>
+              <strong>Seguro y confiable</strong>
+              <p>Plataforma oficial y segura</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="video" class="section video-section">
+    <div class="container video-grid">
+      <div class="video-box">
+        <video id="videoDom" controls preload="metadata">
+          <source id="videoSource" src="./img/video/VideoDOM.mp4" type="video/mp4">
+          Tu navegador no soporta el video.
+        </video>
+      </div>
+
+      <div class="video-info">
+        <span class="section-kicker" id="videoKicker">Guía ciudadana</span>
+        <h2 id="videoTitulo">Video paso a paso</h2>
+        <p id="videoDescripcion"></p>
+
+        <a class="btn btn-accent link-dom" href="#" target="_blank">
+          Ir a DOM en Línea
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="beneficios">
+    <div class="container cards-3">
+      <article class="info-card">
+        <div class="info-icon purple">🏛</div>
+        <h3>¿Qué es DOM en Línea?</h3>
+        <p>
+          Es la plataforma digital para gestionar certificados y trámites asociados
+          a la Dirección de Obras Municipales.
+        </p>
+      </article>
+
+      <article class="info-card">
+        <div class="info-icon orange">⚙</div>
+        <h3>¿Para qué sirve?</h3>
+        <p>
+          Permite orientar a los usuarios, agilizar procesos y facilitar la solicitud
+          de certificados municipales.
+        </p>
+      </article>
+
+      <article class="info-card">
+        <div class="info-icon blue">🖱</div>
+        <h3>¿Cómo lo uso?</h3>
+        <p>
+          Selecciona el certificado, revisa los requisitos, prepara tus antecedentes
+          y luego accede a la plataforma oficial.
+        </p>
+      </article>
+    </div>
+  </section>
+  <section class="section" id="certificados">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">Servicios disponibles</span>
+          <h2>Certificados disponibles</h2>
+        </div>
+      </div>
+
+      <div class="accordion" id="certificadosAccordion"></div>
+    </div>
+  </section>
+  <section class="section" id="documentos">
+    <div class="container mini-cards">
+      <article class="mini-card">
+        <div class="mini-icon purple">📘</div>
+        <h3>Trípticos</h3>
+        <p>Espacio para publicar material informativo descargable.</p>
+        <a id="linkTriptico" class="mini-btn purple-btn" href="#" target="_blank">Ver tríptico</a>
+      </article>
+
+      <article class="mini-card">
+        <div class="mini-icon blue">📋</div>
+        <h3>Paso a paso</h3>
+        <p>Guía simple para orientar al usuario antes de iniciar el trámite.</p>
+        <a id="linkPasoAPaso" class="mini-btn blue-btn" href="#" target="_blank">Ver paso a paso</a>
+      </article>
+
+      <article class="mini-card">
+        <div class="mini-icon orange">📄</div>
+        <h3>Formatos</h3>
+        <p>Sección para formularios o formatos descargables según el trámite.</p>
+        <a id="linkFormularios" class="mini-btn orange-btn" href="#" target="_blank">Formularios</a>
+      </article>
+
+      <article class="mini-card">
+        <div class="mini-icon teal">🔐</div>
+        <h3>Recupera Clave Única</h3>
+        <p>Recuerda: todos estos trámites se realizan con tu ClaveÚnica.</p>
+        <a id="linkClaveUnica" class="mini-btn teal-btn" href="#" target="_blank">Recupera ClaveÚnica</a>
+      </article>
+    </div>
+  </section>
+  <section class="section" id="faq">
+    <div class="container faq-grid">
+      <div class="panel">
+        <div class="section-heading inside">
+          <div>
+            <span class="section-kicker">Ayuda ciudadana</span>
+            <h2>Preguntas frecuentes</h2>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">¿Qué necesito para solicitar un certificado?</button>
+          <div class="faq-answer" id="faqRespuestaCertificado"></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">¿Los plazos son exactos?</button>
+          <div class="faq-answer">
+            No. Los plazos son referenciales y pueden variar según revisión municipal,
+            complejidad del caso y cantidad de solicitudes.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">¿Dónde ingreso el trámite?</button>
+          <div class="faq-answer">
+            El ingreso se realiza en la plataforma oficial DOM en Línea del MINVU.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">¿Puedo revisar primero los requisitos?</button>
+          <div class="faq-answer">
+            Sí. Esta página está pensada justamente para orientar antes de entrar
+            a la plataforma oficial.
+          </div>
+        </div>
+      </div>
+
+      <div class="cta-box">
+        <span class="section-kicker dark">Acceso directo</span>
+        <h2>Ingresa ahora a DOM en Línea</h2>
+        <p>
+          Cuando ya tengas identificado tu certificado y los antecedentes requeridos,
+          ingresa a la plataforma oficial.
+        </p>
+        <a class="btn btn-accent btn-lg link-dom" href="#" target="_blank">
+          Acceder a DOM en Línea
+        </a>
+
+        <div class="cta-tags">
+          <span>Rol de avalúo</span>
+          <span>Croquis</span>
+          <span>Documentos digitalizados</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer" id="contacto">
+    <div class="container footer-grid">
+      <div>
+        <h4 id="footerTituloDom">Dirección de Obras</h4>
+        <p id="footerMunicipalidad"></p>
+        <p id="footerDireccion"></p>
+        <p id="footerTelefono"></p>
+        <p id="footerCorreo"></p>
+      </div>
+      <div>
+        <h4>Plataforma</h4>
+        <p>DOM en Línea MINVU</p>
+      </div>
+      <div>
+        <h4>Acceso</h4>
+        <p class="link-texto">
+          Ingresar directamente aquí:
+          <a class="link-dom" href="#" target="_blank">DOM en Línea</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.min.js"></script>
+</body>
+</html>
