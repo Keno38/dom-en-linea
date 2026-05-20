@@ -79,6 +79,12 @@
       "descripcion": "Corresponde a solicitudes especiales no listadas explícitamente.",
       "documentos": ["Antecedentes según solicitud"],
       "formulario": "./img/Doc/formulario.pdf"
+    },{
+      "nombre": "Otro ejemplo ",
+      "plazo": "Según revisión",
+      "descripcion": "Corresponde a solicitudes especiales no listadas explícitamente.",
+      "documentos": ["Antecedentes según solicitud"],
+      "formulario": "./img/Doc/formulario.pdf"
     }
   ]
 }
