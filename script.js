@@ -68,7 +68,8 @@ function aplicarConfig(config) {
 
   if (hero.imagen) {
     const heroSection = document.querySelector(".hero");
-    heroSection.style.backgroundImage = `
+    if (heroSection) {
+      heroSection.style.backgroundImage = `
       linear-gradient(
         90deg,
         rgba(15, 60, 104, 0.85) 0%,
@@ -77,7 +78,8 @@ function aplicarConfig(config) {
         rgba(15, 60, 104, 0.2) 100%
       ),
       url("${hero.imagen}")
-    `;
+      `;
+    }
   }
 
   // Enlaces principales
