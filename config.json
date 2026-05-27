@@ -32,9 +32,9 @@
     "pasoAPaso": "./img/pasos.jpg"
   },
   "textos": {
-    "videoKicker": "Guía ciudadana",
-    "videoTitulo": "Video paso a paso",
-    "videoDescripcion": "Revisa este video para conocer el proceso de ingreso a DOM en Línea, los antecedentes que debes preparar y cómo realizar tu solicitud.",
+    "videoKicker": "Información ciudadana",
+    "videoTitulo": "¿Qué es DOM en Línea?",
+    "videoDescripcion": "Video informativo sobre la plataforma DOM en Línea y su funcionamiento, orientado a facilitar el acceso digital a trámites y certificados de la Dirección de Obras Municipales.",
     "faqRespuestaCertificado": "Normalmente se solicita rol de avalúo, dirección del predio, croquis de ubicación, dominio vigente, copia de escritura y otros antecedentes según el certificado."
   },
   "certificados": [
