@@ -1,9 +1,17 @@
 :root {
+<<<<<<< HEAD
   --primary: #0f3c68;
   --primary-2: #0b2f52;
   --accent: #2f76ea;
   --accent-2: #5a9cff;
   --blue: #2f76ea;
+=======
+  --primary:#0f3c68;
+  --primary-2:#0b2f52;
+  --accent: #2f76ea;
+  --accent-2:#5a9cff;
+  --blue:#2f76ea;
+>>>>>>> 235b655 (Primer commit)
   --blue-soft: #eaf2ff;
   --teal: #21b6b6;
   --bg: #f4f7fb;
@@ -68,6 +76,10 @@ a {
   top: 0;
   z-index: 50;
   background: var(--primary-2);
+<<<<<<< HEAD
+=======
+  backdrop-filter: blur(6px);
+>>>>>>> 235b655 (Primer commit)
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(6px);
 }
@@ -87,6 +99,10 @@ a {
 }
 
 .brand-logo-img {
+<<<<<<< HEAD
+=======
+  height: 58px;
+>>>>>>> 235b655 (Primer commit)
   width: auto;
   height: 58px;
   max-width: 240px;
@@ -113,11 +129,14 @@ a {
 }
 
 /* BOTONES */
+<<<<<<< HEAD
 .btn,
 .mini-btn {
   min-height: 44px;
 }
 
+=======
+>>>>>>> 235b655 (Primer commit)
 .btn {
   display: inline-flex;
   align-items: center;
@@ -129,6 +148,7 @@ a {
   text-align: center;
   cursor: pointer;
   transition: 0.2s ease;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -140,11 +160,21 @@ a {
   font-size: 1rem;
 }
 
+<<<<<<< HEAD
+=======
+.btn-primary {
+  background: #2f76ea;
+  padding: 14px 24px;
+  font-size: 16px;
+}
+
+>>>>>>> 235b655 (Primer commit)
 .btn-accent {
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   color: #fff;
 }
 
+<<<<<<< HEAD
 .btn-accent:hover {
   background: linear-gradient(135deg, #1f5fd1, var(--accent));
 }
@@ -153,6 +183,12 @@ a {
   background: transparent;
   border: 2px solid var(--blue);
   color: var(--blue);
+=======
+.btn-outline {
+  border: 2px solid var(--blue);
+  color: var(--blue);
+  background: transparent;
+>>>>>>> 235b655 (Primer commit)
 }
 
 .btn-outline:hover {
@@ -160,6 +196,21 @@ a {
   color: #fff;
 }
 
+<<<<<<< HEAD
+=======
+.gov-btn {
+  background: #ffffff;
+  color: #0f69b4;
+  border: 2px solid #0f69b4;
+  font-weight: 700;
+}
+
+.gov-btn:hover {
+  background: #0f69b4;
+  color: white;
+}
+
+>>>>>>> 235b655 (Primer commit)
 /* HERO */
 .hero {
   position: relative;
@@ -250,18 +301,28 @@ a {
 
 .indicator-card {
   display: flex;
+<<<<<<< HEAD
   align-items: center;
   gap: 14px;
   padding: 16px 18px;
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.1);
+=======
+  gap: 14px;
+  align-items: center;
+  background: rgba(255,255,255,0.10);
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 18px;
+  padding: 16px 18px;
+>>>>>>> 235b655 (Primer commit)
   backdrop-filter: blur(8px);
 }
 
 .indicator-icon {
   width: 52px;
   height: 52px;
+<<<<<<< HEAD
   flex: 0 0 52px;
   display: grid;
   place-items: center;
@@ -269,17 +330,35 @@ a {
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.14);
   font-size: 1.2rem;
+=======
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 1.2rem;
+  background: rgba(255,255,255,0.14);
+  border: 1px solid rgba(255,255,255,0.18);
+  flex-shrink: 0;
+>>>>>>> 235b655 (Primer commit)
 }
 
 .indicator-card strong {
   display: block;
+<<<<<<< HEAD
   margin-bottom: 4px;
   font-size: 1.05rem;
+=======
+  font-size: 1.05rem;
+  margin-bottom: 4px;
+>>>>>>> 235b655 (Primer commit)
 }
 
 .indicator-card p {
   margin: 0;
+<<<<<<< HEAD
   color: rgba(255, 255, 255, 0.9);
+=======
+  color: rgba(255,255,255,0.9);
+>>>>>>> 235b655 (Primer commit)
 }
 
 /* VIDEO */
@@ -337,7 +416,22 @@ a {
   line-height: 1.65;
 }
 
+<<<<<<< HEAD
 /* TITULOS */
+=======
+.triptico-preview {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  background: #f8fafc;
+  border-radius: 14px;
+  margin: 10px 0 14px;
+  border: 1px solid #e7ecf3;
+  display: block;
+}
+
+/* HEADINGS */
+>>>>>>> 235b655 (Primer commit)
 .section-heading {
   display: flex;
   align-items: flex-end;
@@ -399,9 +493,17 @@ a {
   font-size: 1.6rem;
 }
 
-.info-icon.purple { background: var(--primary); }
-.info-icon.orange { background: var(--accent); }
-.info-icon.blue { background: var(--blue); }
+.info-icon.purple {
+  background: var(--primary);
+}
+
+.info-icon.orange {
+  background: var(--accent);
+}
+
+.info-icon.blue {
+  background: var(--blue);
+}
 
 .info-card h3 {
   margin: 0 0 12px;
@@ -539,7 +641,123 @@ a {
   margin-top: 16px;
 }
 
+<<<<<<< HEAD
 /* DOCUMENTOS */
+=======
+/* FORMULARIO PREPARAR SOLICITUD */
+.solicitud-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+  align-items:stretch;
+}
+
+.solicitud-card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  border: 1px solid #edf1f7;
+  box-shadow: var(--shadow);
+  padding: 24px;
+  height: 100%;
+}
+.solicitud-card:has(#mapaPredio) {
+  overflow: hidden;
+}
+
+.solicitud-card h3 {
+  margin: 0 0 16px;
+  color: var(--primary);
+  font-size: 1.35rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 22px;
+}
+
+.form-group {
+  display: grid;
+  gap: 7px;
+}
+
+.form-group label {
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 0.92rem;
+}
+
+.form-group input,
+.form-group select,
+.map-search input {
+  width: 100%;
+  border: 1px solid #dbe3ef;
+  border-radius: 12px;
+  padding: 12px 14px;
+  font-size: 0.96rem;
+  outline: none;
+  background: #fff;
+  color: var(--text);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.map-search input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(47, 118, 234, 0.12);
+}
+
+.form-help {
+  color: var(--muted);
+  line-height: 1.6;
+  margin: 0 0 14px;
+}
+
+.map-search {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+#mapaPredio {
+  width: 100%;
+  height: 480px;
+  min-height: 420px;
+  position: relative;
+  display: block;
+  flex: none;
+  border-radius: 18px;
+  border: 1px solid #dbe3ef;
+  overflow: hidden;
+  background: #eef3f8;
+  z-index: 1;
+}
+
+.coordenadas-box {
+  margin-top: 14px;
+  background: #f8fbff;
+  border: 1px solid #dbe7f8;
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.coordenadas-box strong {
+  color: var(--primary);
+}
+
+.coordenadas-box p {
+  margin: 6px 0 0;
+  color: var(--muted);
+}
+
+.form-actions {
+  margin-top: 10px;
+}
+
+/* MINI CARDS */
+>>>>>>> 235b655 (Primer commit)
 .mini-cards {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -561,8 +779,17 @@ a {
 }
 
 .mini-icon.purple {
+<<<<<<< HEAD
   color: var(--primary);
   border: 2px solid var(--primary);
+=======
+  background: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+.mini-icon.blue {
+>>>>>>> 235b655 (Primer commit)
   background: transparent;
 }
 
@@ -573,6 +800,7 @@ a {
 }
 
 .mini-icon.orange {
+<<<<<<< HEAD
   color: #f58220;
   border: 2px solid #f58220;
   background: transparent;
@@ -584,6 +812,19 @@ a {
   background: #fff;
 }
 
+=======
+  background: transparent;
+  color: #f58220;
+  border: 2px solid #f58220;
+}
+
+.mini-icon.teal {
+  background: white;
+  color: #0f69b4;
+  border: 2px solid #0f69b4;
+}
+
+>>>>>>> 235b655 (Primer commit)
 .mini-card h3 {
   margin: 0 0 10px;
   color: var(--primary);
@@ -618,6 +859,14 @@ a {
   color: #fff;
 }
 
+<<<<<<< HEAD
+=======
+.purple-btn:hover,
+.purple-btn:hover * {
+  color: white !important;
+}
+
+>>>>>>> 235b655 (Primer commit)
 .blue-btn {
   border: 2px solid var(--blue);
   color: var(--blue);
@@ -628,6 +877,14 @@ a {
   color: #fff;
 }
 
+<<<<<<< HEAD
+=======
+.blue-btn:hover,
+.blue-btn:hover * {
+  color: white !important;
+}
+
+>>>>>>> 235b655 (Primer commit)
 .orange-btn {
   border: 2px solid #f58220;
   color: #f58220;
@@ -640,7 +897,13 @@ a {
 
 .teal-btn {
   border: 2px solid #0964ae;
+<<<<<<< HEAD
   color: #0964ae;
+=======
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s ease;
+>>>>>>> 235b655 (Primer commit)
 }
 
 .teal-btn:hover {
@@ -717,6 +980,63 @@ a {
   font-weight: 700;
 }
 
+/* PASO A PASO CARD */
+.paso-card-final {
+  background: var(--surface);
+  border-radius: var(--radius);
+  border: 1px solid #edf1f7;
+  box-shadow: var(--shadow);
+  padding: 24px;
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 24px;
+  align-items: center;
+}
+
+.paso-card-text h2 {
+  margin: 8px 0 12px;
+  color: var(--primary);
+}
+
+.paso-card-text p {
+  color: var(--muted);
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+.paso-card-img {
+  display: flex;
+  justify-content: center;
+}
+
+.paso-card-img img {
+  width: 100%;
+  max-width: 240px;
+  border-radius: 14px;
+  border: 1px solid #e6edf7;
+  transition: transform 0.2s ease;
+}
+
+.paso-card-img img:hover {
+  transform: scale(1.03);
+}
+
+.link-texto {
+  margin-top: 12px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.link-texto a {
+  color: var(--primary);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.link-texto a:hover {
+  text-decoration: underline;
+}
+
 /* FOOTER */
 .footer {
   margin-top: 14px;
@@ -731,6 +1051,22 @@ a {
   gap: 18px;
 }
 
+<<<<<<< HEAD
+=======
+.footer a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer * {
+  color: #ffffff !important;
+}
+
+>>>>>>> 235b655 (Primer commit)
 .footer h4 {
   margin: 0 0 10px;
   font-size: 1.05rem;
@@ -814,8 +1150,16 @@ a {
   }
 
   .hero-grid,
+<<<<<<< HEAD
   .video-grid,
   .faq-grid {
+=======
+  .faq-grid,
+  .cards-3,
+  .mini-cards,
+  .accordion-grid,
+  .solicitud-grid {
+>>>>>>> 235b655 (Primer commit)
     grid-template-columns: 1fr;
   }
 
@@ -837,7 +1181,30 @@ a {
   }
 }
 
+<<<<<<< HEAD
 /* CELULAR */
+=======
+@media (max-width: 900px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .video-box video {
+    height: 240px;
+  }
+}
+
+@media (max-width: 800px) {
+  .paso-card-final {
+    grid-template-columns: 1fr;
+  }
+
+  .paso-card-img img {
+    max-width: 220px;
+  }
+}
+
+>>>>>>> 235b655 (Primer commit)
 @media (max-width: 720px) {
   .container,
   .footer-logos {
@@ -931,6 +1298,7 @@ a {
     padding: 0 16px 16px;
   }
 
+<<<<<<< HEAD
   .footer-logos-grid {
     gap: 18px;
     padding: 14px 16px;
@@ -985,4 +1353,139 @@ a {
   .accordion-badge {
     display: none;
   }
+=======
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .map-search {
+    grid-template-columns: 1fr;
+  }
+
+  #mapaPredio {
+    height: 340px;
+  }
+}
+
+/* FLUJO MAPA PRIMERO */
+.flujo-pasos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 0 0 18px;
+}
+
+.flujo-paso {
+  background: #ffffff;
+  border: 1px solid #dbe7f8;
+  border-radius: 14px;
+  padding: 12px 14px;
+  color: var(--muted);
+  font-weight: 800;
+  text-align: center;
+  box-shadow: 0 8px 22px rgba(24, 33, 61, 0.05);
+}
+
+.flujo-paso.activo {
+  color: #ffffff;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  border-color: transparent;
+}
+
+.flujo-paso.completado {
+  color: var(--primary);
+  background: #eef7ff;
+  border-color: #b9d5ff;
+}
+
+.solicitud-grid-flujo {
+  align-items: start;
+}
+
+.paso-etiqueta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: var(--blue-soft);
+  color: var(--blue);
+  font-weight: 800;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.estado-flujo {
+  margin-top: 10px !important;
+  font-weight: 700;
+}
+
+.estado-flujo.pendiente {
+  color: #a05a00;
+}
+
+.estado-flujo.listo {
+  color: #0f6b45;
+}
+
+.aviso-autocompletado {
+  background: #f8fbff;
+  border: 1px solid #dbe7f8;
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+
+.btn:disabled,
+.btn[disabled] {
+  opacity: 0.48;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
+.btn:disabled:hover,
+.btn[disabled]:hover {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: #fff;
+}
+
+.btn-outline:disabled:hover,
+.btn-outline[disabled]:hover {
+  background: transparent;
+  color: var(--blue);
+}
+
+.formulario-solicitud {
+  scroll-margin-top: 100px;
+}
+
+@media (max-width: 720px) {
+  .flujo-pasos {
+    grid-template-columns: 1fr;
+  }
+}
+/* OPCIÓN SIN NÚMERO */
+.check-sn {
+  display: flex !important;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  font-size: 0.88rem;
+  color: var(--muted) !important;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.check-sn input {
+  width: auto !important;
+  margin: 0;
+  accent-color: var(--accent);
+}
+
+#numero[readonly] {
+  background: #f1f5f9;
+  color: #334155;
+  font-weight: 700;
+>>>>>>> 235b655 (Primer commit)
 }
